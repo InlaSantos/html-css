@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorido</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: rgb(12, 12, 12);
+            height: 200px;
+            width: 200px;
+        }
+        div:hover{
+            background-color: rgb(106, 46, 0);
+        }
+        div#d2:hover{
+            background-color: blueviolet;
+        }
+        div#d3 > div{
+            display: none;
+            background-color: red;
+            
+
+        }
+        div#d3:hover > div{
+            display: block;
+            width: 400px;
+            height: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+    <div id="d2"></div>
+    <div id="d3">
+        <div></div>
+    </div>
+</body>
+</html>
