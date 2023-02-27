@@ -1,4 +1,4 @@
 # html-css
  Curso em video
 
-estpu aprendendo a criar sites e agora vou gerenciar meus repositórios!
+estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
