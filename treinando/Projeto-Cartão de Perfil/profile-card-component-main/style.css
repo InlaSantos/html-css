@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+main{
+    background-color: #2ab2ca;
+    height: 500px;
+    
+}
+
+div{    
+    background-image: url(images/bg-pattern-top.svg);
+    height: 500px;
+    padding: 20px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:top left;
+}

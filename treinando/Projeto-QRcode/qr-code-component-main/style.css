@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+
+
+main{
+    height: 500px;
+    background-color: #a6c8dc7f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+section{
+    border-radius: 14px;
+    margin-top: 50px;
+    margin: auto;
+    height: 356px;
+    width: 200px;
+    background-color: white;
+    padding: 13px;
+    padding-bottom: 0px;
+    box-shadow: 1px 27px 8px rgba(0, 0, 0, 0.105);
+    
+}
+
+h1{
+    padding-top: 8px;
+    font-family:Barlow, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+   
+}
+
+p{
+    text-align: center;
+    font-family: Heebo, sans-serif;
+    font-size: 0.8em;
+    
+}
+
+div.imagem{
+    height: 200px;
+    background-image: url(images/image-qr-code.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+footer > p,a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
