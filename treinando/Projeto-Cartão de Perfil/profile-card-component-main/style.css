@@ -1,19 +1,27 @@
 @charset "UTF-8";
+ 
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
 main{
-    margin-top: 50%;
-    margin: auto;
-    background-color: #2ab2ca;
-    height:35vw;
-    width:65vw
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    
+}
+section{
+    display: block;
+    height: 60vh;
+    width: 30vw;
+    background-color: white;
+
+        
     
 }
 
-div{    
-    background-image: url(images/bg-pattern-top.svg);
-    height: 500px;
-    padding: 20px;
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:top left;
-}
+
+
+
+
