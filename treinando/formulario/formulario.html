@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Estudando Formulários</h1>
+    <form action="form.js">
+        <p>
+            <label for="inome">Candidato:</label>
+            <input type="text" name="nome" id="inome" placeholder="nome do candidato" required>
+        </p>
+
+        <p>
+            <label for="iidade">Idade:</label>
+            <input type="number" name="idade" id="iidade" min="0" max="90" required>
+        </p>
+
+        <p>
+            <label for="iano">ano de nascimento:</label>
+            <input type="date" name="ano" id="iano" required>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
