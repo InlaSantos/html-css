@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando formularios</title>
+</head>
+<body>
+    <h1>Formulários 2</h1>
+    <form action="form.js">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" autocomplete="name" placeholder="seu nome" required>
+            </p>
+            <p>
+                <label for="iidade">Idade:</label>
+                <input type="number" name="Idade" id="iidade" min="0" max="100" required autocomplete="cc-number" placeholder="idade">
+            </p>
+            <p>
+                <label for="iemail">e-mail:</label>
+                <input type="email" name="email" id="iemail" placeholder="e-mail" required autocomplete="email" >
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" required pattern="^(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxx-xxxx">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
