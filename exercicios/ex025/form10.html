@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <p>
+        <label for="iano">Em que ano voce nasceu?:</label>
+        <input type="number" name="ano" id="iano" oninput="calcidade()">
+    </p>
+    <p>
+        <label for="iidade">sua idade é :</label>
+        <output id="idad" >0</output>
+    </p>
+    
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="excluir">
+    </p>
+
+    <script>
+        function calcidade(){
+            let agora = new Date()
+            let ano = agora.getFullYear()
+            idad.innerHTML = Number(ano) - Number(iano.value)
+            
+        }
+    </script>
+</body>
+</html>
